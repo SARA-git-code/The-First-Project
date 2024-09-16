@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:backgroundTint="#384B70">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forget your password"
+            android:layout_gravity="center"
+            android:paddingTop="30mm"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.228" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="enter your email address and we will send you a link to reset your password"
+            android:textSize="12sp"
+            android:paddingTop="2mm"
+            android:textColorHint="#546E7A"
+            android:paddingHorizontal="10mm"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_aabsoluteY="232dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5mm"
+            android:ems="18"
+            android:hint="Examplehere@outlook.com"
+            android:inputType="textWebEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="319dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:ems="18"
+            android:layout_marginTop="5mm"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="468dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
