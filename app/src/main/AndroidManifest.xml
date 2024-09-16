@@ -16,7 +16,7 @@
             android:name=".LogoActivity2"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".ForgetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
